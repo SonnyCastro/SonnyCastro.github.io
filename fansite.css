@@ -1,4 +1,50 @@
-#welcome{
-  font-size: 48px;
-  color: rgb(88, 196, 234);
+* {
+  margin: 0 auto;
+  color: aliceblue;
+  background-color: #2a9d8f;
+  border-width: thick;
+  border-color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.table {
+  height: 600px;
+  width: 600px;
+  border: black;
+
+  /* box-sizing: border-box; */
+}
+
+#table-body {
+  text-decoration: none;
+}
+
+img:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.header {
+  background-color: white;
+}
+
+td {
+  text-align: center;
+}
+
+a.link:hover {
+  color: blue;
+}
+
+.name {
+  text-align: center;
+}
+
+.type {
+  text-align: center;
 }
